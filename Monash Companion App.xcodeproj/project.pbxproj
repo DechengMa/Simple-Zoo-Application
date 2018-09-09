@@ -1,0 +1,656 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D314A528211DC9A2008DD802 /* AnimalListController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D314A527211DC9A2008DD802 /* AnimalListController.swift */; };
+		D320C1AC2127F492001C6964 /* AddAnimalController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D320C1AB2127F492001C6964 /* AddAnimalController.swift */; };
+		D320C1AF2127F54B001C6964 /* Zoo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D320C1AD2127F54B001C6964 /* Zoo.xcdatamodeld */; };
+		D320C1B22127FCAF001C6964 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D320C1B12127FCAF001C6964 /* CoreData.framework */; };
+		D37069892137B83C00549A63 /* Validation.swift in Sources */ = {isa = PBXBuildFile; fileRef = D37069882137B83C00549A63 /* Validation.swift */; };
+		D37CAA002139890B00E91743 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D37CA9FF2139890B00E91743 /* MapKit.framework */; };
+		D39A1A7C211D85B200EB14E3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D39A1A7B211D85B200EB14E3 /* AppDelegate.swift */; };
+		D39A1A7E211D85B200EB14E3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D39A1A7D211D85B200EB14E3 /* ViewController.swift */; };
+		D39A1A81211D85B200EB14E3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D39A1A7F211D85B200EB14E3 /* Main.storyboard */; };
+		D39A1A83211D85B300EB14E3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D39A1A82211D85B300EB14E3 /* Assets.xcassets */; };
+		D39A1A86211D85B300EB14E3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D39A1A84211D85B300EB14E3 /* LaunchScreen.storyboard */; };
+		D39A1A91211D85B300EB14E3 /* Monash_Companion_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D39A1A90211D85B300EB14E3 /* Monash_Companion_AppTests.swift */; };
+		D39A1A9C211D85B300EB14E3 /* Monash_Companion_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D39A1A9B211D85B300EB14E3 /* Monash_Companion_AppUITests.swift */; };
+		D3AC62DF21292F700077FCFF /* ChooseLocationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3AC62DE21292F700077FCFF /* ChooseLocationController.swift */; };
+		D3DA9094211DCEA4000575D0 /* AnimalInfoController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3DA9093211DCEA4000575D0 /* AnimalInfoController.swift */; };
+		D3DA9096211FDFA4000575D0 /* AnimalListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3DA9095211FDFA4000575D0 /* AnimalListCell.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D39A1A8D211D85B300EB14E3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D39A1A70211D85B200EB14E3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D39A1A77211D85B200EB14E3;
+			remoteInfo = "Monash Companion App";
+		};
+		D39A1A98211D85B300EB14E3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D39A1A70211D85B200EB14E3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D39A1A77211D85B200EB14E3;
+			remoteInfo = "Monash Companion App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D314A527211DC9A2008DD802 /* AnimalListController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalListController.swift; sourceTree = "<group>"; };
+		D320C1AB2127F492001C6964 /* AddAnimalController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddAnimalController.swift; sourceTree = "<group>"; };
+		D320C1AE2127F54B001C6964 /* Model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Model.xcdatamodel; sourceTree = "<group>"; };
+		D320C1B12127FCAF001C6964 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		D37069882137B83C00549A63 /* Validation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Validation.swift; sourceTree = "<group>"; };
+		D37CA9FF2139890B00E91743 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		D39A1A78211D85B200EB14E3 /* Monash Companion App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Monash Companion App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D39A1A7B211D85B200EB14E3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D39A1A7D211D85B200EB14E3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D39A1A80211D85B200EB14E3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D39A1A82211D85B300EB14E3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D39A1A85211D85B300EB14E3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D39A1A87211D85B300EB14E3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D39A1A8C211D85B300EB14E3 /* Monash Companion AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Monash Companion AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D39A1A90211D85B300EB14E3 /* Monash_Companion_AppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Monash_Companion_AppTests.swift; sourceTree = "<group>"; };
+		D39A1A92211D85B300EB14E3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D39A1A97211D85B300EB14E3 /* Monash Companion AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Monash Companion AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D39A1A9B211D85B300EB14E3 /* Monash_Companion_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Monash_Companion_AppUITests.swift; sourceTree = "<group>"; };
+		D39A1A9D211D85B300EB14E3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D3AC62DE21292F700077FCFF /* ChooseLocationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChooseLocationController.swift; sourceTree = "<group>"; };
+		D3DA9093211DCEA4000575D0 /* AnimalInfoController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalInfoController.swift; sourceTree = "<group>"; };
+		D3DA9095211FDFA4000575D0 /* AnimalListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalListCell.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D39A1A75211D85B200EB14E3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D37CAA002139890B00E91743 /* MapKit.framework in Frameworks */,
+				D320C1B22127FCAF001C6964 /* CoreData.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D39A1A89211D85B300EB14E3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D39A1A94211D85B300EB14E3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D320C1B02127FCAF001C6964 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D37CA9FF2139890B00E91743 /* MapKit.framework */,
+				D320C1B12127FCAF001C6964 /* CoreData.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D39A1A6F211D85B200EB14E3 = {
+			isa = PBXGroup;
+			children = (
+				D39A1A7A211D85B200EB14E3 /* Monash Companion App */,
+				D39A1A8F211D85B300EB14E3 /* Monash Companion AppTests */,
+				D39A1A9A211D85B300EB14E3 /* Monash Companion AppUITests */,
+				D39A1A79211D85B200EB14E3 /* Products */,
+				D320C1B02127FCAF001C6964 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		D39A1A79211D85B200EB14E3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D39A1A78211D85B200EB14E3 /* Monash Companion App.app */,
+				D39A1A8C211D85B300EB14E3 /* Monash Companion AppTests.xctest */,
+				D39A1A97211D85B300EB14E3 /* Monash Companion AppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D39A1A7A211D85B200EB14E3 /* Monash Companion App */ = {
+			isa = PBXGroup;
+			children = (
+				D39A1A7B211D85B200EB14E3 /* AppDelegate.swift */,
+				D39A1A7D211D85B200EB14E3 /* ViewController.swift */,
+				D39A1A7F211D85B200EB14E3 /* Main.storyboard */,
+				D3AC62DE21292F700077FCFF /* ChooseLocationController.swift */,
+				D39A1A82211D85B300EB14E3 /* Assets.xcassets */,
+				D39A1A84211D85B300EB14E3 /* LaunchScreen.storyboard */,
+				D39A1A87211D85B300EB14E3 /* Info.plist */,
+				D3DA9093211DCEA4000575D0 /* AnimalInfoController.swift */,
+				D314A527211DC9A2008DD802 /* AnimalListController.swift */,
+				D3DA9095211FDFA4000575D0 /* AnimalListCell.swift */,
+				D320C1AB2127F492001C6964 /* AddAnimalController.swift */,
+				D37069882137B83C00549A63 /* Validation.swift */,
+				D320C1AD2127F54B001C6964 /* Zoo.xcdatamodeld */,
+			);
+			path = "Monash Companion App";
+			sourceTree = "<group>";
+		};
+		D39A1A8F211D85B300EB14E3 /* Monash Companion AppTests */ = {
+			isa = PBXGroup;
+			children = (
+				D39A1A90211D85B300EB14E3 /* Monash_Companion_AppTests.swift */,
+				D39A1A92211D85B300EB14E3 /* Info.plist */,
+			);
+			path = "Monash Companion AppTests";
+			sourceTree = "<group>";
+		};
+		D39A1A9A211D85B300EB14E3 /* Monash Companion AppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D39A1A9B211D85B300EB14E3 /* Monash_Companion_AppUITests.swift */,
+				D39A1A9D211D85B300EB14E3 /* Info.plist */,
+			);
+			path = "Monash Companion AppUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D39A1A77211D85B200EB14E3 /* Monash Companion App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D39A1AA0211D85B300EB14E3 /* Build configuration list for PBXNativeTarget "Monash Companion App" */;
+			buildPhases = (
+				D39A1A74211D85B200EB14E3 /* Sources */,
+				D39A1A75211D85B200EB14E3 /* Frameworks */,
+				D39A1A76211D85B200EB14E3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Monash Companion App";
+			productName = "Monash Companion App";
+			productReference = D39A1A78211D85B200EB14E3 /* Monash Companion App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D39A1A8B211D85B300EB14E3 /* Monash Companion AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D39A1AA3211D85B300EB14E3 /* Build configuration list for PBXNativeTarget "Monash Companion AppTests" */;
+			buildPhases = (
+				D39A1A88211D85B300EB14E3 /* Sources */,
+				D39A1A89211D85B300EB14E3 /* Frameworks */,
+				D39A1A8A211D85B300EB14E3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D39A1A8E211D85B300EB14E3 /* PBXTargetDependency */,
+			);
+			name = "Monash Companion AppTests";
+			productName = "Monash Companion AppTests";
+			productReference = D39A1A8C211D85B300EB14E3 /* Monash Companion AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D39A1A96211D85B300EB14E3 /* Monash Companion AppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D39A1AA6211D85B300EB14E3 /* Build configuration list for PBXNativeTarget "Monash Companion AppUITests" */;
+			buildPhases = (
+				D39A1A93211D85B300EB14E3 /* Sources */,
+				D39A1A94211D85B300EB14E3 /* Frameworks */,
+				D39A1A95211D85B300EB14E3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D39A1A99211D85B300EB14E3 /* PBXTargetDependency */,
+			);
+			name = "Monash Companion AppUITests";
+			productName = "Monash Companion AppUITests";
+			productReference = D39A1A97211D85B300EB14E3 /* Monash Companion AppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D39A1A70211D85B200EB14E3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "Monash University";
+				TargetAttributes = {
+					D39A1A77211D85B200EB14E3 = {
+						CreatedOnToolsVersion = 9.4.1;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+							com.apple.Maps.iOS = {
+								enabled = 1;
+							};
+						};
+					};
+					D39A1A8B211D85B300EB14E3 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = D39A1A77211D85B200EB14E3;
+					};
+					D39A1A96211D85B300EB14E3 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = D39A1A77211D85B200EB14E3;
+					};
+				};
+			};
+			buildConfigurationList = D39A1A73211D85B200EB14E3 /* Build configuration list for PBXProject "Monash Companion App" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D39A1A6F211D85B200EB14E3;
+			productRefGroup = D39A1A79211D85B200EB14E3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D39A1A77211D85B200EB14E3 /* Monash Companion App */,
+				D39A1A8B211D85B300EB14E3 /* Monash Companion AppTests */,
+				D39A1A96211D85B300EB14E3 /* Monash Companion AppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D39A1A76211D85B200EB14E3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D39A1A86211D85B300EB14E3 /* LaunchScreen.storyboard in Resources */,
+				D39A1A83211D85B300EB14E3 /* Assets.xcassets in Resources */,
+				D39A1A81211D85B200EB14E3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D39A1A8A211D85B300EB14E3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D39A1A95211D85B300EB14E3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D39A1A74211D85B200EB14E3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D39A1A7E211D85B200EB14E3 /* ViewController.swift in Sources */,
+				D320C1AC2127F492001C6964 /* AddAnimalController.swift in Sources */,
+				D39A1A7C211D85B200EB14E3 /* AppDelegate.swift in Sources */,
+				D320C1AF2127F54B001C6964 /* Zoo.xcdatamodeld in Sources */,
+				D3DA9094211DCEA4000575D0 /* AnimalInfoController.swift in Sources */,
+				D3DA9096211FDFA4000575D0 /* AnimalListCell.swift in Sources */,
+				D314A528211DC9A2008DD802 /* AnimalListController.swift in Sources */,
+				D37069892137B83C00549A63 /* Validation.swift in Sources */,
+				D3AC62DF21292F700077FCFF /* ChooseLocationController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D39A1A88211D85B300EB14E3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D39A1A91211D85B300EB14E3 /* Monash_Companion_AppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D39A1A93211D85B300EB14E3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D39A1A9C211D85B300EB14E3 /* Monash_Companion_AppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D39A1A8E211D85B300EB14E3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D39A1A77211D85B200EB14E3 /* Monash Companion App */;
+			targetProxy = D39A1A8D211D85B300EB14E3 /* PBXContainerItemProxy */;
+		};
+		D39A1A99211D85B300EB14E3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D39A1A77211D85B200EB14E3 /* Monash Companion App */;
+			targetProxy = D39A1A98211D85B300EB14E3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D39A1A7F211D85B200EB14E3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D39A1A80211D85B200EB14E3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D39A1A84211D85B300EB14E3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D39A1A85211D85B300EB14E3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D39A1A9E211D85B300EB14E3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D39A1A9F211D85B300EB14E3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D39A1AA1211D85B300EB14E3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PT44U5Q78Q;
+				INFOPLIST_FILE = "Monash Companion App/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Monash.Monash-Companion-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D39A1AA2211D85B300EB14E3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PT44U5Q78Q;
+				INFOPLIST_FILE = "Monash Companion App/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Monash.Monash-Companion-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D39A1AA4211D85B300EB14E3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PT44U5Q78Q;
+				INFOPLIST_FILE = "Monash Companion AppTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Monash.Monash-Companion-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Monash Companion App.app/Monash Companion App";
+			};
+			name = Debug;
+		};
+		D39A1AA5211D85B300EB14E3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PT44U5Q78Q;
+				INFOPLIST_FILE = "Monash Companion AppTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Monash.Monash-Companion-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Monash Companion App.app/Monash Companion App";
+			};
+			name = Release;
+		};
+		D39A1AA7211D85B300EB14E3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PT44U5Q78Q;
+				INFOPLIST_FILE = "Monash Companion AppUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Monash.Monash-Companion-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Monash Companion App";
+			};
+			name = Debug;
+		};
+		D39A1AA8211D85B300EB14E3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PT44U5Q78Q;
+				INFOPLIST_FILE = "Monash Companion AppUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Monash.Monash-Companion-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Monash Companion App";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D39A1A73211D85B200EB14E3 /* Build configuration list for PBXProject "Monash Companion App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D39A1A9E211D85B300EB14E3 /* Debug */,
+				D39A1A9F211D85B300EB14E3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D39A1AA0211D85B300EB14E3 /* Build configuration list for PBXNativeTarget "Monash Companion App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D39A1AA1211D85B300EB14E3 /* Debug */,
+				D39A1AA2211D85B300EB14E3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D39A1AA3211D85B300EB14E3 /* Build configuration list for PBXNativeTarget "Monash Companion AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D39A1AA4211D85B300EB14E3 /* Debug */,
+				D39A1AA5211D85B300EB14E3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D39A1AA6211D85B300EB14E3 /* Build configuration list for PBXNativeTarget "Monash Companion AppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D39A1AA7211D85B300EB14E3 /* Debug */,
+				D39A1AA8211D85B300EB14E3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		D320C1AD2127F54B001C6964 /* Zoo.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				D320C1AE2127F54B001C6964 /* Model.xcdatamodel */,
+			);
+			currentVersion = D320C1AE2127F54B001C6964 /* Model.xcdatamodel */;
+			path = Zoo.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = D39A1A70211D85B200EB14E3 /* Project object */;
+}
